@@ -1,0 +1,32 @@
+ 
+*** Results Summary for CNN Model Architecture VGG ***
+N Images            :  40
+N Dog Images        :  30
+N Not-Dog Images    :  10
+ 
+pct_match :  92.5 %
+pct_correct_dogs :  100.0 %
+pct_correct_breed :  93.3 %
+pct_correct_notdogs :  100.0 %
+
+
+*** Results Summary for CNN Model Architecture ALEXNET ***
+N Images            :  40
+N Dog Images        :  30
+N Not-Dog Images    :  10
+ 
+pct_match :  90.0 %
+pct_correct_dogs :  100.0 %
+pct_correct_breed :  86.7 %
+pct_correct_notdogs :  100.0 %
+
+
+*** Results Summary for CNN Model Architecture RESNET ***
+N Images            :  40
+N Dog Images        :  30
+N Not-Dog Images    :  10
+ 
+pct_match :  90.0 %
+pct_correct_dogs :  100.0 %
+pct_correct_breed :  93.3 %
+pct_correct_notdogs :  90.0 %
