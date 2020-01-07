@@ -77,10 +77,10 @@ def classify_images(images_dir, results_dic, model):
       truth = results_dic[key][0]
       print("result dic is {}".format(results_dic[key]))
       if truth in model_label:
-        results_dic[key] = [results_dic[key]]
+        # results_dic[key] = [results_dic[key]]
         results_dic[key].extend((model_label,1))
       else:
-        results_dic[key] = [results_dic[key]]
+        # results_dic[key] = [results_dic[key]]
         results_dic[key].extend((model_label,0))
     # a = results_dic.keys()
     # print(images_dir,a)
@@ -99,8 +99,8 @@ def classify_images(images_dir, results_dic, model):
 #                  'Great_dane_05320.jpg': 'great dane', 'Dalmatian_04068.jpg': 'dalmatian'},
 #                  "vgg")    
 
-classify_images("pet_images",
-                {'skunk_029.jpg': 'skunk', 'Boston_terrier_02303.jpg': 'boston terrier', 'Miniature_schnauzer_06884.jpg': 'miniature schnauzer', 'Beagle_01141.jpg': 'beagle', 'Basenji_00974.jpg': 'basenji', 'gecko_80.jpg': 'gecko', 'Dalmatian_04017.jpg': 'dalmatian', 'Boxer_02426.jpg': 'boxer', 'Basenji_00963.jpg': 'basenji'},
-                 "vgg") 
+# classify_images("pet_images",
+#                 {'skunk_029.jpg': 'skunk', 'Boston_terrier_02303.jpg': 'boston terrier', 'Miniature_schnauzer_06884.jpg': 'miniature schnauzer', 'Beagle_01141.jpg': 'beagle', 'Basenji_00974.jpg': 'basenji', 'gecko_80.jpg': 'gecko', 'Dalmatian_04017.jpg': 'dalmatian', 'Boxer_02426.jpg': 'boxer', 'Basenji_00963.jpg': 'basenji'},
+#                  "vgg") 
 
                  

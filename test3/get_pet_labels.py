@@ -54,13 +54,13 @@ def get_pet_labels(image_dir):
             for word in image_name:
                 if word.isalpha():
                     # print("value for word is {} and the length is{}".format(word, len(word)))
-                    if len(pet_label) == 0:
-                        pet_label += word.lower()
-                    else:
-                        pet_label += " " + word.lower()    
-                   
+                    # if len(word) == 0:
+                    #     pet_label += word.lower()
+                    # else:
+                    pet_label += word.lower() + " "    
+            pet_label = pet_label.strip()                   
         if in_files[idx] not in results_dic:
-            results_dic[in_files[idx]] = pet_label
+            results_dic[in_files[idx]] = [pet_label]
               
         else:
             print("Warning: Duplicate files exist in directory", 
@@ -68,7 +68,7 @@ def get_pet_labels(image_dir):
 
     # for item in results_dic.items():              
     #     print(item)  
-    print(results_dic)  
+    # print(results_dic)  
     return(results_dic)
 
-get_pet_labels("pet_images")
+# get_pet_labels("pet_images")

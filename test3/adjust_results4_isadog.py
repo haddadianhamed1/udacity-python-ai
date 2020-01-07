@@ -106,10 +106,10 @@ def adjust_results4_isadog(results_dic, dogfile):
     
     # for items in results_dic.items():
     #   print(items)
-    print(results_dic)
-    None
+    # print(results_dic)
+    # None
 
-adjust_results4_isadog({'skunk_029.jpg': ['skunk', 'skunk, polecat, wood pussy', 1], 'Boston_terrier_02303.jpg': ['boston terrier', 'boston bull, boston terrier', 1], 'Miniature_schnauzer_06884.jpg': ['miniature schnauzer', 'miniature schnauzer', 1], 'Beagle_01141.jpg': ['beagle', 'beagle', 1], 'Basenji_00974.jpg': ['basenji', 'basenji', 1], 'gecko_80.jpg': ['gecko', 'tailed frog, bell toad, ribbed toad, tailed toad, ascaphus trui', 1], 'Dalmatian_04017.jpg': ['dalmatian', 'dalmatian, coach dog, carriage dog', 1], 'Boxer_02426.jpg': ['boxer', 'boxer', 1], 'Basenji_00963.jpg': ['basenji', 'basenji', 1]},"dognames.txt")
+# adjust_results4_isadog({'skunk_029.jpg': ['skunk', 'skunk, polecat, wood pussy', 1], 'Boston_terrier_02303.jpg': ['boston terrier', 'boston bull, boston terrier', 1], 'Miniature_schnauzer_06884.jpg': ['miniature schnauzer', 'miniature schnauzer', 1], 'Beagle_01141.jpg': ['beagle', 'beagle', 1], 'Basenji_00974.jpg': ['basenji', 'basenji', 1], 'gecko_80.jpg': ['gecko', 'tailed frog, bell toad, ribbed toad, tailed toad, ascaphus trui', 1], 'Dalmatian_04017.jpg': ['dalmatian', 'dalmatian, coach dog, carriage dog', 1], 'Boxer_02426.jpg': ['boxer', 'boxer', 1], 'Basenji_00963.jpg': ['basenji', 'basenji', 1]},"dognames.txt")
 
 # adjust_results4_isadog({ 'German_shepherd_dog_04931.jpg': ['german shepherd dog', 'german shepherd, german shepherd dog, german police dog, alsatian', 1],
 #    },"dognames.txt")    
